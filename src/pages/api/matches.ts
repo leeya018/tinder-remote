@@ -9,7 +9,7 @@ handler.use(corsMiddleware)
 handler.post(async (req: NextApiRequest, res: NextApiResponse) => {
   const {
     message = 1,
-    amount = 100,
+    amount = 10,
     is_tinder_u = true,
     pageToken = null,
   } = req.body
